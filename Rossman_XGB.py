@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import pickle as pkl
 
-loaded_model_pkl = pkl.load(open("finalized_XGBoost_pickle_model.pkl",'rb'))
+loaded_model_pkl = pkl.load(open("final_XGBoost_pickle_model.pkl",'rb'))
 
 
 def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u):
