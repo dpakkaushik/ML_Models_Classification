@@ -22,7 +22,7 @@ def main():
     state_holiday_regular_day = st.number_input("state_holiday_regular_day",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
     day_of_week_cos = st.number_input("day_of_week_cos",min_value=-1.0,max_value=1.0,step=1e-6,format="%.5f")
     competition_open_since_year = st.number_input("competition_open_since_year",min_value=1900.0,max_value=2015.0,step=1e-6,format="%.5f")
-    competition_distance = st.number_input("competition_distance",min_value=-1.0.,max_value=32.0,step=1e-6,format="%.5f")
+    competition_distance = st.number_input("competition_distance",min_value=-1.0,max_value=32.0,step=1e-6,format="%.5f")
     store = st.number_input("store",min_value=0.,max_value=1115.0,step=1e-6,format="%.5f")
     competition_open_since_month = st.number_input("competition_open_since_month",min_value=0.,max_value=12.0,step=1e-6,format="%.5f")
     store_type_d = st.number_input("store_type_d",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
