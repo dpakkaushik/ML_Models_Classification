@@ -1,6 +1,7 @@
 import joblib
 import streamlit as st
 import pickle as pkl
+import pandas as pd
 
 loaded_model_pkl = pkl.load(open("final_XGBoost_pickle_model.pkl",'rb'))
 
