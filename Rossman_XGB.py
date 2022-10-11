@@ -33,7 +33,7 @@ def main():
     promo2 = st.number_input("promo2",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
     store_type_b = st.number_input("store_type_b",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
     is_promo = st.number_input("is_promo",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
-    month_cos = st.number_input("month_cos",min_value=0.,max_value=1.0,step=1e-6,format="%.5f")
+    month_cos = st.number_input("month_cos",min_value=-1.0,max_value=1.0,step=1e-6,format="%.5f")
     promo2_since_year = st.number_input("promo2_since_year", min_value=2009.0, max_value=2015.0, step=1e-6, format="%.5f")
     competition_time_month = st.number_input("competition_time_month", min_value=-1.0, max_value=19.0, step=1e-6, format="%.5f")
     promo2_since_week = st.number_input("promo2_since_week", min_value=0., max_value=50.0, step=1e-6, format="%.5f")
