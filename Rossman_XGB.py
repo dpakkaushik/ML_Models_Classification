@@ -49,8 +49,8 @@ def main():
         result = fun_pred(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20)
     st.success('The output is {}'.format(result))
     if st.button("About"):
-        st.text("Lets LEarn")
-        st.text("Built with Streamlit")
+        st.text("This ML App is part of Project Thesis")
+        st.text("Project name store sales prediction")
 
 if __name__ == '__main__':
     main()
