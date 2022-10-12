@@ -9,7 +9,7 @@ loaded_model_pkl = pkl.load(open("final_XGBoost_pickle_model.pkl",'rb'))
 
 def fun_pred(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20):
   prediction1  = loaded_model_pkl.predict(pd.DataFrame(data = [[f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20]], columns=['state_holiday_regular_day', 'day_of_week_cos', 'competition_open_since_year', 'competition_distance', 'store', 'competition_open_since_month', 'store_type_d', 'day_cos', 'state_holiday_public_holiday', 'promo2', 'store_type_b', 'is_promo', 'month_cos', 'promo2_since_year', 'competition_time_month', 'promo2_since_week', 'assortment', 'promo', 'promo_time_week', 'school_holiday', 'year']))
-  return np.expm1(prediction1)
+  return prediction1
 
 
 def main():
